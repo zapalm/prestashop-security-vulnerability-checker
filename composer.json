@@ -1,0 +1,32 @@
+{
+  "name": "zapalm/prestashopSecurityVulnerabilityChecker",
+  "type": "library",
+  "description": "PrestaShop security vulnerability checker.",
+  "keywords": [
+    "prestashop",
+    "security",
+    "vulnerability",
+    "php-library"
+  ],
+  "homepage": "https://prestashop.modulez.ru/en/tools-scripts/70-prestashop-security-vulnerability-checker.html",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksim T.",
+      "email": "zapalm@yandex.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "zapalm\\": ""
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
